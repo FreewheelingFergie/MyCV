@@ -1,0 +1,26 @@
+body {
+    text-align: left;
+    background-color: rgb(185, 235, 235);
+    padding: 11px;
+}
+
+
+table {
+    table-layout: auto;
+    width: 100%;
+    border: 4px solid rgb(157, 143, 189);
+    
+}
+/* Have alternating colours for table rows (using odd and even). */
+    tbody tr:nth-child(odd) {
+    background-color: #6598f1a3;
+}
+  
+    tbody tr:nth-child(even) {
+    background-color: #83aee3;
+}
+  
+  
+    table {
+    background-color: #0d8094;
+  }
